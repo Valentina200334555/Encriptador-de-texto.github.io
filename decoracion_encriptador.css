@@ -1,0 +1,305 @@
+body{
+	background-color: lightpink;
+}
+
+.Frame6{
+
+display: flex;
+
+flex-direction: column;
+
+align-items: flex-start;
+
+padding: 0px;
+
+gap: 40px;
+
+position: absolute;
+
+width: 120px;
+
+height: 48px;
+
+left: 2px;
+
+top: 10px
+}
+
+#botones{
+ display: flex;
+
+ flex-direction: row;
+
+ align-items: flex-start;
+
+ padding: 0px;
+
+ gap: 24px;
+
+ position: absolute;
+
+ width: 680px;
+
+ height: 67px;
+
+ left: 40px;
+
+ top: 520px;
+}
+
+#boton_encriptador{
+
+	text-decoration: none;
+    display:inline-block;
+    width:50%;
+    padding:10px;
+    border: 3px solid pink;
+    border-radius:50px;
+    text-decoration: none;
+    color:white;
+    font-weight: bold;
+    background:purple;
+    text-align: center;
+    font-size: 30px;
+}
+
+#boton_desencriptador{
+	text-decoration: none;
+    display:inline-block;
+    width:50%;
+    padding:10px;
+    border: 3px solid pink;
+    border-radius:50px;
+    text-decoration: none;
+    color:white;
+    font-weight: bold;
+    background:purple;
+    text-align: center;
+    font-size: 30px;
+
+}
+
+
+
+#boton_copiar{
+	text-decoration: none;
+    display:inline-block;
+    width:50%;
+    padding:10px;
+    border: 3px solid pink;
+    border-radius:50px;
+    text-decoration: none;
+    color:white;
+    font-weight: bold;
+    background:purple;
+    text-align: center;
+    font-size: 30px;
+    position: absolute;
+   width:250px;
+   height: 67px;
+   left: 730px;
+   top: 520px;
+}
+
+
+.Rectangle{
+ position: absolute;
+
+ width: 400px;
+
+ height: 470px;
+
+ left: 990px;
+
+ top: 110px;
+ background:white;
+
+ box-shadow: 0px 24px 32px -8px rgba(0, 0, 0, 0.08);
+
+ border-radius: 32px;
+}
+
+.texto2{
+ position: absolute;
+
+ width: 220px;
+
+ height: 38px;
+
+ left: 970px;
+
+ top: 356px;
+
+ font-family: 'Inter';
+
+ font-style: normal;
+
+ font-weight: 300;
+
+ font-size: 32px;
+
+ line-height: 140%;
+ color: black;
+}
+
+.conejo{
+ position: absolute;
+
+ width: 330px;
+
+ height: 300px;
+
+ left: 999px;
+
+ top: 270px;
+ box-sizing: border-box;
+ overflow:hidden;
+}
+
+.mensaje{
+ position: absolute;
+
+ width: 573px;
+
+ height: 40px;
+
+ left: 200px;
+
+ top: 200px;
+
+ font-family: 'Inter';
+
+ font-style: normal;
+
+ font-weight: 400;
+
+ font-size: 32px;
+
+ line-height: 150%;
+}
+
+.texto{
+ position: absolute;
+
+ width: 220px;
+
+ height: 48px;
+
+ left: 200px;
+
+ top: 120px;
+
+ font-family: 'Inter';
+
+ font-style: normal;
+
+ font-weight: 400;
+
+ font-size: 32px;
+
+ line-height: 140%;
+ color: white;
+}
+
+.pato{
+ position: absolute;
+
+ width: 200px;
+
+ height: 200px;
+
+ left: 5px;
+
+ top: 100px;
+}
+
+.conejo3{
+ position: absolute;
+
+ width: 200px;
+
+ height: 200px;
+
+ left: 100px;
+
+ top: 330px;
+}
+
+.pato1{
+ position: absolute;
+
+ width: 200px;
+
+ height: 200px;
+
+ left: 440px;
+
+ top: 320px;
+}
+
+.ocultar{
+	display: none;
+}
+
+#resultado{
+ position: absolute;
+
+ width: 700px;
+
+ height: 700px;
+
+ left: 1030px;
+
+ top: 115px;
+
+}
+.seccion2{
+	box-sizing: border-box;
+    overflow:hidden;
+}
+
+textarea{
+  border:none;
+  resize:none;
+  outline:none;
+  width: 300px;
+  height: 70px;
+
+}
+
+.abvertencia{
+	position: absolute;
+	top: 230px;
+	left: 210px;
+	font-size: 20px;
+}
+
+.pollito_feliz{
+	position: absolute;
+
+ width: 200px;
+
+ height: 200px;
+
+ left: 770px;
+
+ top: 335px;
+}
+
+.conejo_nube{
+	position: absolute;
+
+ width: 400px;
+
+ height: 210px;
+
+ left: 699px;
+
+ top: 70px;
+}
+
+
+
+
+
+

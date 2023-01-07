@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<title>Encriptador de texto</title>
+<body>
+<h1><strong><center>Encriptador de texto</center></strong></h1>
+
+<img src="Frame 6.png" class="Frame6">
+<img src="Rectangle.png" class="Rectangle">
+<img src="pollito_feliz.png" class="pollito_feliz">
+<img src="conejo_nube.png" class="conejo_nube">
+
+<div id="btncopiar">
+<button id="boton_copiar">Copiar</button>
+</div>
+
+<img src="pato.png" class="pato">
+<img src="conejo3.png" class="conejo3">
+<img src="pato1.png" class="pato1">
+
+
+
+<input class="mensaje" type="text" onkeyup="this.value=ValidacionLetras(this.value)" />
+<p class="abvertencia">&#33 Solo se puede ingresar letras minusculas y sin acento</p>
+
+
+<link rel="stylesheet" href="decoracion_encriptador.css">
+<p><em><center>Bienvenido al encriptador de texto</center></em></p>
+
+<p class="texto">Ingrese el texto</p>
+
+<section class="seccion2">
+ <div class="contenedor-conejo ">
+ 	<img src="conejo.png" class="conejo">
+ </div>
+
+</section>
+
+<div id="resultado">
+ <h1>Mensaje encriptado:</h1>
+ <textarea id="texto" readonly="readonly">!Bienvenido!</textarea>
+
+</div>
+
+<div id="botones">
+<button id="boton_encriptador">Encriptar</button>
+<button id="boton_desencriptador">Desencriptar</button>
+</div>
+
+<script src ="Encriptador.js"></script>
+
+</body>
+
+</html>
